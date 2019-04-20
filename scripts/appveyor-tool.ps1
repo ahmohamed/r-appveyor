@@ -88,7 +88,7 @@ Function InstallR {
     $url_path = ("old/" + $version + "/")
   }
   Else {
-      $url_path = ("old/" + $version + "/")
+      $url_path = ""
   }
 
   Progress ("URL path: " + $url_path)
